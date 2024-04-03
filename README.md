@@ -27,5 +27,5 @@ This C++ program is designed to detect potential floating-point overflow in a gi
 
 ### Compilation
 Compile the program using a C++ compiler. For example:
-g++ -I ./ *.cpp -- Used this command in the file that has the program: on Terminal: 1. cd Documents 2. cd HW2 3. g++ -I ./ *.cpp 
-Then execute with this: ./a.out 1e+08 1.0 --- (can use other inputs for loop bound and loop counter as command line arguments)
+g++ -o HW2 HW2.cpp -- Used this command in the file that has the program: on my Terminal: 1. cd Documents 2. cd HW2 3. g++ -o HW2 HW2.cpp --- (For capi - on CSHW folder - cd CSHW. Then g++ -o HW2 HW2.cpp ---> ./HW2 1e+08 1.0)
+Then execute with this: ./HW2 1e+08 1.0 --- (can use other inputs for loop bound and loop counter as command line arguments)
